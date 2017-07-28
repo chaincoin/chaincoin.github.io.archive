@@ -9,7 +9,7 @@ It's really late right now, so rather than putting something clever together I
 figured I would just write a simple invitation to you, the reader: if you would
 like to contribute to the advancement of the website then please feel free to
 do so! If you have any questions you can find us on the Chaincoin slack at
-https://chaincoin-slack.herokuapp.com/
+https://chainteam.herokuapp.com/
 
 
 License
