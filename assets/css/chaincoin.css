@@ -1,3 +1,10 @@
+body, html {
+  width: 100%
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 .navbar-brand {
   padding: unset !important;
 }
@@ -20,13 +27,6 @@
   background-color: white;
 }
 
-@media (min-width: 768px) {
-
-  #logo {
-    height: calc(100vh - 52px);
-  }
-}
-
 .jumbotron {
   padding: 0px;
 }
@@ -35,8 +35,10 @@
   display: unset;
 }
 
-.logo-responsive {
-  width: calc(100vw - 60%);
+@media (min-width:768px) {
+  .logo-responsive {
+    width: calc(100vw - 60%);
+  }
 }
 
 @media (max-width: 992px) {
@@ -74,4 +76,78 @@
     .collapse.in{
         display:block !important;
     }
+}
+
+#subtitle {
+  text-align: center;
+  font-size: 35px;
+  letter-spacing: 2px;
+  line-height: 45px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+button {
+  text-transform: uppercase;
+}
+
+.aButton:hover {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.sectionTitle {
+  font-size: 3em;
+}
+
+.sectionTitle h2 {
+  font-size: 1em;
+}
+
+#masternode {
+  background-color: #27b463;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.jumbotron h2 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#subtitle h2 {
+  text-transform: inherit;
+}
+
+#whyChoose {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#joinCommunity {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #5ba6d8;
+  color: white;
+}
+
+#listCommunity a {
+  margin: 50px;
+}
+
+#roadmap {
+  background-color: white;
+}
+
+#walletDownload {
+  background-color: rgb(91, 166, 216);
+  color: white;
+}
+
+.chc-getchaincoin-ticker {
+  color: black;
 }
