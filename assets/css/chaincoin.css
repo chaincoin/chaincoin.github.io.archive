@@ -192,3 +192,11 @@ ul li {
 .normal-jumbo {
   font-size: 16px;
 }
+
+.rogue-miners {
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 24px;
+}
