@@ -3,6 +3,7 @@ body, html {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+  color: black;
 }
 
 .navbar-brand {
@@ -29,6 +30,10 @@ body, html {
 
 .jumbotron {
   padding: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
@@ -105,9 +110,10 @@ button {
 
 .sectionTitle h2 {
   font-size: 1em;
+  margin-top: 0px;
 }
 
-#masternode {
+#masternode, .green-jumbo {
   background-color: #27b463;
   color: white;
   padding-top: 20px;
@@ -116,6 +122,12 @@ button {
 
 .jumbotron h2 {
   text-transform: uppercase;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
   text-align: center;
 }
 
@@ -139,7 +151,7 @@ button {
   margin: 50px;
 }
 
-#roadmap {
+#roadmap, .white-jumbo {
   background-color: white;
 }
 
@@ -150,4 +162,33 @@ button {
 
 .chc-getchaincoin-ticker {
   color: black;
+}
+
+#subtitle span {
+  font-size: 14px;
+}
+
+.x-chain {
+  background-color: rgba(255,255,255,.16);
+  border-radius: 20px;
+}
+
+center h3 {
+  font-weight: bold;
+}
+
+.x-chain p {
+  text-align: justify;
+  padding: 15px;
+  line-height: 30px;
+  font-size: 16px;
+  margin-bottom: .5em;
+}
+
+ul li {
+  font-size: 16px;
+}
+
+.normal-jumbo {
+  font-size: 16px;
 }
