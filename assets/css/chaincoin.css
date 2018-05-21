@@ -189,8 +189,8 @@ ul li {
   font-size: 16px;
 }
 
-.normal-jumbo {
-  font-size: 16px;
+.normal-jumbo, .normal-jumbo p {
+  font-size: 16px !important;
 }
 
 .rogue-miners {
