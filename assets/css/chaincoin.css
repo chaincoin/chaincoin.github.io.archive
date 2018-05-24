@@ -204,3 +204,21 @@ ul li {
 .gray-color {
   color: gray;
 }
+
+.contributor {
+  background-color: rgba(255,255,255,.26);
+  border-radius: 1em;
+  padding: 2em;
+  margin: 2em;
+  width: 27%;
+  min-height: 368px;
+}
+
+.contributor img {
+  width: 208px;
+  height: 208px;
+}
+
+.contributor a {
+  color: white;
+}
