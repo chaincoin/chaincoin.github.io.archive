@@ -1,6 +1,11 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <title>Chaincoin</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="apple-touch-icon" sizes="57x57" href="assets/icons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="assets/icons/apple-icon-60x60.png">
@@ -26,14 +31,15 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
   </head>
 
   <body>
     <nav class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">
-            <img alt="Chaincoin - Instante Secure Transaction" src="assets/img/logo.png" style="width: 52px;     padding: 3px 3px 3px 3px;">
+          <a class="navbar-brand" href="./">
+            <img alt="Chaincoin - Instante Secure Transaction" src="assets/img/logo.png" style="width: 52px; padding: 3px 3px 3px 3px;">
           </a>
 
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#chaincoinMenu" aria-expanded="false">
@@ -52,45 +58,45 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Info <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">The Vision</a></li>
+                <li><a href="./the-vision/">The Vision</a></li>
                 <li><a href="#">Roadmap</a></li>
-                <li><a href="#">Coin Specs</a></li>
+                <li><a href="./coin-specs/">Coin Specs</a></li>
               </ul>
             </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Masternodes <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">What is a Masternode?</a></li>
-                <li><a href="#">Return on Investment</a></li>
-                <li><a href="#">Masternode Setup</a></li>
+                <li><a href="./what-is-a-masternode/">What is a Masternode?</a></li>
+                <li><a href="./chaincoin-roi/">Return on Investment</a></li>
+                <li><a href="./how-to-setup-masternodes/">Masternode Setup</a></li>
               </ul>
             </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Governance <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Contributors</a></li>
+                <li><a href="./contributors/">Contributors</a></li>
                 <li><a href="#">Voting</a></li>
               </ul>
             </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Wiki <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Tutorials</a></li>
+                <li><a href="https://github.com/chaincoin-legacy/chaincoin/wiki/Frequently-Asked-Questions-(FAQ)">FAQ</a></li>
+                <li><a href="https://github.com/chaincoin-legacy/chaincoin/wiki/Tutorials-&-Guides">Tutorials</a></li>
               </ul>
             </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Community <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">Discord</a></li>
-                <li><a href="#">Slack</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Bitcointalk</a></li>
+                <li><a href="https://github.com/chaincoin/chaincoin" target="_blank" rel="nofollow">GitHub</a></li>
+                <li><a href="https://discord.gg/NabdcJ7" target="_blank" rel="nofollow">Discord</a></li>
+                <li><a href="https://t.me/WorldOfChainCoin" target="_blank" rel="nofollow">Telegram</a></li>
+                <li><a href="https://twitter.com/chaincointeam" target="_blank" rel="nofollow">Twitter</a></li>
+                <li><a href="https://bitcointalk.org/index.php?topic=422149.0" target="_blank" rel="nofollow">Bitcointalk</a></li>
               </ul>
             </li>
 
-            <li><a href="https://www.chaincoin.org/chaincoin-wallet/">Get Chaincoin</a></li>
+            <li><a href="/chaincoin-wallet/">Get Chaincoin</a></li>
 
           </ul>
         </div>
@@ -103,6 +109,204 @@
           <div style="text-align: center">
             <img src="assets/img/jumbotron.png" class="img-responsive logo-responsive" alt="Chaincoin - Instant Secure Transacations">
           </div>
+      </div>
+    </div>
+
+    <div class="jumbotron" id="subtitle">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <h2><i>Chaincoin is a global leader for instant secure transactions backed by one of the largest worldwide community networks in digital currency.</i></h2>
+          <br />
+          <div class="col-md-6 col-md-offset-3">
+            <a href="#" class="aButton"><button class="btn btn-lg btn-block btn-success">Learn more about the vision</button></a>
+
+            <br />
+
+            <a href="https://en.wikipedia.org/wiki/Digital_currency" rel="nofollow" target="_blank">
+              <span>Hmmm… what is digital currency?</span>
+            </a>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron" id="masternode">
+      <div class="text-center sectionTitle">
+        <h2>Get rewarded with Chaincoin</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6">
+            <p>Chaincoin masternode operators provide Private Send and Instant Send functionality and are rewarded for their service delivery. Stakeholders collectively participate in decentralized decision making through the Chaincoin Governance Protocol. Any interested party can participate in Chaincoin’s governance.</p>
+
+            <a href="#" class="aButton"><button class="btn btn-lg btn-block btn-primary">Learn more about masternodes</button></a>
+          </div>
+
+          <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6">
+            <img src="assets/img/profit.png" alt="Chaincoin Masternode Profit">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron" id="whyChoose">
+      <h2>Why choose Chaincoin</h2>
+      <div class="container">
+        <div class="row whyUse">
+          <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 text-center">
+            <img src="assets/img/pre-mine.png" alt="Chaincoin: no pre-mine" width="140" height="140">
+            <p><strong>No Pre-Mining</strong></p>
+            <p>We want many Chaincoins to be available to our community to mine, grow, and benefit from.</p>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 text-center">
+            <img src="assets/img/financial.png" alt="Chaincoin: financial independece" width="140" height="140">
+            <p><strong>Financial Independence</strong></p>
+            <p>Chaincoin encompasses a self-funding blockchain which promotes continued growth and development.</p>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 text-center">
+            <img src="assets/img/unique-algo.png" alt="Chaincoin: C11 - Unique Algo" width="140" height="140">
+            <p><strong>Unique Hashing Algo</strong></p>
+            <p>Chaincoin was the first coin to use the C11 hashing algorithm which keeps mining open to GPU miners.</p>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 text-center">
+            <img src="assets/img/coin-mixing.png" alt="Chaincoin: privacy by coin mixing" width="140" height="140">
+            <p><strong>Masternodes/Coin-Mixing</strong></p>
+            <p>Increases privacy by mixing coins to make tracing the source of transactions practically impossible.</p>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 text-center">
+            <img src="assets/img/governance.png" alt="Chaincoin: decentralized governance" width="140" height="140">
+            <p><strong>Decentralized Governance</strong></p>
+            <p>Allows the users of Chaincoin to vote on the strategic direction of the coin as well development budgeting.</p>
+          </div>
+
+          <div class="col-md-4 col-lg-4 col-sm-6 col-xs-12 text-center">
+            <img src="assets/img/personal-banking.png" alt="Chaincoin: personal banking" width="140" height="140">
+            <p><strong>Personal Banking</strong></p>
+            <p>Chaincoin will become your own personal bank. Easily store or spend your coins.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron" id="joinCommunity">
+      <div class="text-center sectionTitle">
+        <h2>Join our Community:</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <div class="text-center" id="listCommunity">
+            <a href="https://github.com/chaincoin/chaincoin" target="_blank" rel="nofollow"><img src="assets/img/comm-github.png" alt="GitHub - Chaincoin"></a>
+            <a href="https://discord.gg/NabdcJ7" target="_blank" rel="nofollow"><img src="assets/img/comm-discord.png" alt="Discord - Chaincoin"></a>
+            <a href="https://t.me/WorldOfChainCoin" target="_blank" rel="nofollow"><img src="assets/img/comm-telegram.png" alt="Telegram - Chaincoin"></a>
+            <a href="https://twitter.com/chaincointeam" target="_blank" rel="nofollow"><img src="assets/img/comm-twitter.png" alt="Twitter - Chaincoin"></a>
+            <a href="https://bitcointalk.org/index.php?topic=422149.0" target="_blank" rel="nofollow"><img src="assets/img/comm-bitcointalk.png" alt="BitcoinTalk - Chaincoin"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron" id="roadmap">
+      <div class="text-center sectionTitle">
+        <h2>DEVELOPMENT ROADMAP</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6">
+            <br /><br />
+            <p>The development roadmap is our backbone and is what will make Chaincoin great. It’s going to require hustle and a lot of hard work, but with support from the community, we’re confident we can execute this plan and achieve our mission for Chaincoin.</p>
+            <br /><br /><br />
+            <a href="#" class="aButton">
+              <button type="button" class="btn btn-success btn-lg btn-block">
+                view the full roadmap
+            </button>
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6">
+            <img src="assets/img/roadmap.png" alt="Chaincoin's Roadmap">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="jumbotron" id="walletDownload">
+      <div class="text-center sectionTitle">
+        <h2>Chaincoin Wallet</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+          <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6">
+            <img src="assets/img/wallet-download.png" alt="Chaincoin wallet download" class="img-responsive">
+
+          </div>
+          <div class="col-md-6 col-lg-6 col-sm-6 col-xs-6">
+            <br /><br /><br /><br />
+            <p>Download your Chaincoin wallet.</p>
+            <p>Available on Windows, Linux, and Mac.</p>
+
+            <a href="#" class="aButton">
+              <button type="button" class="btn btn-success btn-lg btn-block">
+                Wallet Download
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="jumbotron" id="getChaincoin">
+      <div class="text-center sectionTitle">
+        <h2>Get Chaincoin</h2>
+        <h3>Ready to get some Chaincoin? You can get it from Cryptopia using the button below.</h3>
+      </div>
+      <p style="clear: both"></p>
+      <br /><br />
+      <div class="row">
+        <div class="text-center" style="margin-left: 15%; margin-right: 15%;">
+          <div class="btn-group btn-group-justified btn-group-lg text-center">
+            <a href="https://www.cryptopia.co.nz/Exchange/?market=CHC_BTC" class="btn btn-default" rel="nofollow" target="_blank">Buy CHC from Cryptopia</a>
+            <a href="https://www.chaincoin.org/chaincoin-wallet/" class="btn btn-default">Download CHC Wallet</a>
+          </div>
+
+          <br /><br />
+          <div class="chc-getchaincoin-ticker">
+            <script>
+            baseUrl = "https://widgets.cryptocompare.com/";
+            var scripts = document.getElementsByTagName("script");
+            var embedder = scripts[ scripts.length - 1 ];
+            var cccTheme =
+            {
+              "General": {
+                "background":"transparent","priceText":"black","showLogo":false
+              },
+              "Currency":{
+                "color":"#fff"
+              },
+              "Trend":{
+                "colorUp":"#9bdc5d","colorUnchanged":"#ccc"
+              }
+            };
+            (function (){
+              var appName = encodeURIComponent(window.location.hostname);
+              if(appName==""){
+                appName="local";
+              }
+              var s = document.createElement("script");
+              s.type = "text/javascript";
+              s.async = true;
+              var theUrl = baseUrl+'serve/v3/coin/header?fsyms=CHC&tsyms=USD,BTC';
+              s.src = theUrl + ( theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+              embedder.parentNode.appendChild(s);
+            })();
+          </script>
+        </div>
+        </div>
       </div>
     </div>
 
